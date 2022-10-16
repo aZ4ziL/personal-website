@@ -1,0 +1,37 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+    background-image: url(../img/mateo-avila-chinchilla-x_8oJhYU31k-unsplash.jpg);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: hidden;
+    background-attachment: fixed;
+}
+
+.header-box {
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s ease;
+}
+
+.header-box h1 {
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+.header-box p {
+    font-style: italic;
+}
+
+/* Links */
+#topLinks a:hover {
+    text-decoration: underline;
+}
