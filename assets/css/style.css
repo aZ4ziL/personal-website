@@ -2,6 +2,10 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+body {
+    min-width: 100vw;
+}
+
 .header {
     background-image: url(../img/mateo-avila-chinchilla-x_8oJhYU31k-unsplash.jpg);
     min-height: 90vh;
