@@ -2,11 +2,8 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.header,
 body {
-    min-width: 100vw;
-}
-
-.header {
     background-image: url(../img/mateo-avila-chinchilla-x_8oJhYU31k-unsplash.jpg);
     min-height: 90vh;
     background-position: center;
@@ -14,6 +11,25 @@ body {
     background-size: cover;
     backface-visibility: hidden;
     background-attachment: fixed;
+}
+
+.container {
+    background-color: #303030;
+    border-radius: 1rem;
+}
+
+.navbar {
+    border-radius: 1rem;
+}
+
+.header.header-blog-detail {
+    min-height: 70vh;
+}
+
+.header.header-blog-detail .header-box {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .header-box {
