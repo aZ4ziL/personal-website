@@ -13,12 +13,12 @@ body {
     background-attachment: fixed;
 }
 
-.container {
-    background-color: #303030;
+.navbar {
     border-radius: 1rem;
 }
 
-.navbar {
+.container {
+    background-color: #303030;
     border-radius: 1rem;
 }
 
@@ -54,4 +54,9 @@ body {
 /* Links */
 #topLinks a:hover {
     text-decoration: underline;
+}
+
+.footer-box {
+    background-color: #303030;
+    padding: 10px;
 }
