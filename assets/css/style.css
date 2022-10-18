@@ -55,3 +55,8 @@ body {
 #topLinks a:hover {
     text-decoration: underline;
 }
+
+.footer-box {
+    background-color: #303030;
+    padding: 10px;
+}
